@@ -1,0 +1,5 @@
+version: '3.6'
+services: 
+  web: 
+    volumes: 
+      - /home/mendt/Workspace/customer/slub/slub_web_kartenforum-React:/home/slub_web_kartenforum

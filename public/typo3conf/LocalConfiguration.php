@@ -20,9 +20,10 @@ return [
     ],
     'EXT' => [
         'extConf' => [
-            'backend' => 'a:6:{s:9:"loginLogo";s:0:"";s:19:"loginHighlightColor";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:11:"backendLogo";s:0:"";s:14:"backendFavicon";s:0:"";}',
+            'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
             'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
             'scheduler' => 'a:2:{s:11:"maxLifetime";s:4:"1440";s:15:"showSampleTasks";s:1:"1";}',
+            'slub_web_kartenforum' => 'a:5:{s:13:"georefBackend";s:31:""https://geo-slub.pikobytes.de"";s:14:"georefAuthUser";s:0:"";s:9:"apiSearch";s:32:"https://search-slub.pikobytes.de";s:18:"georefAuthPassword";s:0:"";s:9:"loginLogo";s:0:"";}',
         ],
     ],
     'EXTENSIONS' => [
@@ -41,6 +42,13 @@ return [
         'scheduler' => [
             'maxLifetime' => '1440',
             'showSampleTasks' => '1',
+        ],
+        'slub_web_kartenforum' => [
+            'apiSearch' => 'https://search-slub.pikobytes.de',
+            'georefAuthPassword' => '',
+            'georefAuthUser' => '',
+            'georefBackend' => '"https://geo-slub.pikobytes.de"',
+            'loginLogo' => '',
         ],
     ],
     'FE' => [
