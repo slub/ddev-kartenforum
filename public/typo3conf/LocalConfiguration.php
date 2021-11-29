@@ -23,7 +23,7 @@ return [
             'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
             'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
             'scheduler' => 'a:2:{s:11:"maxLifetime";s:4:"1440";s:15:"showSampleTasks";s:1:"1";}',
-            'slub_web_kartenforum' => 'a:5:{s:13:"georefBackend";s:31:""https://geo-slub.pikobytes.de"";s:14:"georefAuthUser";s:0:"";s:9:"apiSearch";s:32:"https://search-slub.pikobytes.de";s:18:"georefAuthPassword";s:0:"";s:9:"loginLogo";s:0:"";}',
+            'slub_web_kartenforum' => 'a:6:{s:12:"urlNominatim";s:46:"https://kartenforum.slub-dresden.de/nominatim/";s:10:"urlOsmMaps";s:218:"https://basemaps-1.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-2.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-3.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png";s:9:"urlSearch";s:37:"https://search-slub.pikobytes.de/vk20";s:9:"georefApi";s:29:"https://geo-slub.pikobytes.de";s:14:"georefAuthUser";s:9:"vk20_user";s:18:"georefAuthPassword";s:14:"vk20_user_1234";}',
         ],
     ],
     'EXTENSIONS' => [
@@ -44,11 +44,12 @@ return [
             'showSampleTasks' => '1',
         ],
         'slub_web_kartenforum' => [
-            'apiSearch' => 'https://search-slub.pikobytes.de',
+            'georefApi' => 'https://geo-slub.pikobytes.de',
             'georefAuthPassword' => '',
             'georefAuthUser' => '',
-            'georefBackend' => '"https://geo-slub.pikobytes.de"',
-            'loginLogo' => '',
+            'urlNominatim' => 'https://kartenforum.slub-dresden.de/nominatim/',
+            'urlOsmMaps' => 'https://basemaps-1.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-2.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-3.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png',
+            'urlSearch' => 'https://search-slub.pikobytes.de/vk20',
         ],
     ],
     'FE' => [
