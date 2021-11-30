@@ -45,8 +45,8 @@ return [
         ],
         'slub_web_kartenforum' => [
             'georefApi' => 'https://geo-slub.pikobytes.de',
-            'georefAuthPassword' => '',
-            'georefAuthUser' => '',
+            'georefAuthPassword' => 'vk20_user_1234',
+            'georefAuthUser' => 'vk20_user',
             'urlNominatim' => 'https://kartenforum.slub-dresden.de/nominatim/',
             'urlOsmMaps' => 'https://basemaps-1.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-2.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png,https://basemaps-3.pikobytes.de/styles/maptiler-basic-v2/{z}/{x}/{y}.png',
             'urlSearch' => 'https://search-slub.pikobytes.de/vk20',
