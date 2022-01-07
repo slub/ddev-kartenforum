@@ -113,6 +113,7 @@ return [
         'encryptionKey' => '2139712da0c429ee7650bbee51dba0246c280b8d2ccaa8cca7f2e6a443d986d98132a214a0978ac04d60e17afcfebc80',
         'exceptionalErrors' => 12290,
         'features' => [
+            'felogin.extbase' => true,
             'newTranslationServer' => true,
             'unifiedPageTranslationHandling' => true,
         ],
