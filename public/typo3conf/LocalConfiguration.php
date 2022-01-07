@@ -117,6 +117,6 @@ return [
             'newTranslationServer' => true,
             'unifiedPageTranslationHandling' => true,
         ],
-        'sitename' => 'New TYPO3 site',
+        'sitename' => 'SLUB Kartenforum',
     ],
 ];
