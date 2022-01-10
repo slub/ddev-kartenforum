@@ -7,4 +7,4 @@ ddev start
 ddev composer install
 
 # import basic database
-ddev import-db -f basic.sql.gz
+ddev import-db -f basic.sql
