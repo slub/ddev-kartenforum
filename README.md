@@ -10,8 +10,8 @@ DDEV Development System for the SLUB Kartenforum
 In the following chapter `${}` indicate placeholders, which have to be filled by the user.
 
 1. Make sure the .ddev directory exists. If it exists go directly to 2, else follow the next steps.
-  a) run `./start-basic.sh` to start the ddev containers once
-  b) run `ddev stop` to shut the containers down again
+  - a. run `./start-basic.sh` to start the ddev containers once
+  - b. run `ddev stop` to shut the containers down again
 2. Create the file `.ddev/docker-compose.override.yaml` and add following lines:
   ```
   version: '3.6'
