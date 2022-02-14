@@ -18,13 +18,13 @@ In the following chapter `${}` indicate placeholders, which have to be filled by
   services: 
     web: 
       volumes:
-        - ${path on host machine}:${path in container}
+        - ${path to the extension on the host machine}:${target path in container}
   ```
 3. Modify the `composer.json` in order to load the local repository
   ```
   "repositories": { 
       "slub-web-kartenforum": { 
-      "type": "path", // vorher war hier git
+      "type": "path",
       "url": "${path in container (from the docker-compose.override.yaml)}",
       "options": { 
         "symlink": true 
