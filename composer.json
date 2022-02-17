@@ -45,7 +45,7 @@
         "typo3/cms-tstemplate": "^10.4",
         "typo3/cms-viewpage": "^10.4",
         "typo3/cms-lowlevel": "^10.4",
-        "slub/slub-web-kartenforum": "dev-develop-refactoring-vkf",
+        "slub/slub-web-kartenforum": "dev-master",
         "phpdocumentor/reflection-docblock": "5.1.0"
     },
     "scripts": {

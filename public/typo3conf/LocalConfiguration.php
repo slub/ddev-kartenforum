@@ -22,11 +22,11 @@ return [
     'EXTENSIONS' => [
         'backend' => [
             'backendFavicon' => '',
-            'backendLogo' => '',
-            'loginBackgroundImage' => '',
-            'loginFootnote' => '',
-            'loginHighlightColor' => '',
-            'loginLogo' => '',
+            'backendLogo' => 'EXT:slub_web_kartenforum/Resources/Public/Icons/VkfLogoBackend.svg',
+            'loginBackgroundImage' => 'EXT:slub_web_kartenforum/Resources/Public/Images/loginbg.jpg',
+            'loginFootnote' => '...by PIKOBYTES GmbH',
+            'loginHighlightColor' => '#ff3333',
+            'loginLogo' => 'EXT:slub_web_kartenforum/Resources/Public/Icons/VkfLogoLogin.svg',
         ],
         'extensionmanager' => [
             'automaticInstallation' => '1',
