@@ -1,11 +1,9 @@
 base: 'https://ddev-kartenforum.ddev.site/'
-baseVariants: {  }
-errorHandling: {  }
 languages:
   -
     title: Deutsch
     enabled: true
-    languageId: '0'
+    languageId: 0
     base: /
     typo3Language: de
     locale: de_DE.UTF-8
@@ -14,6 +12,7 @@ languages:
     hreflang: de-de
     direction: ltr
     flag: de
+    websiteTitle: ''
   -
     title: English
     enabled: true
@@ -24,9 +23,10 @@ languages:
     navigationTitle: English
     hreflang: en-US
     direction: ltr
-    fallbackType: fallback
+    fallbackType: free
     fallbacks: '0'
     flag: gb
-    languageId: '1'
+    languageId: 1
+    websiteTitle: ''
 rootPageId: 1
-routes: {  }
+websiteTitle: ''
